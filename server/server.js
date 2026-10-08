@@ -44,6 +44,16 @@ app.use('/api/listings/:id/reviews', reviewRoutes);
 app.use('/api/bookings', bookingRoutes);
 app.use('/api/ai', aiRoutes);
 
+// Root API Welcome endpoint
+app.get('/', (req, res) => {
+  res.status(200).json({
+    name: 'Wanderlust Backend API',
+    status: 'online',
+    healthCheck: '/api/health',
+    frontend: 'https://wanderlust-iota-eosin.vercel.app',
+  });
+});
+
 // Health check endpoint
 app.get('/api/health', (req, res) => {
   res.status(200).json({
