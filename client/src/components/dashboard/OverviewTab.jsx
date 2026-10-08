@@ -7,6 +7,7 @@ import {
   Star,
   ArrowRight,
   Clock,
+  Bot,
 } from 'lucide-react';
 import {
   AreaChart,
@@ -19,7 +20,6 @@ import {
 } from 'recharts';
 import StatCard from './StatCard';
 import StatusBadge from './StatusBadge';
-import WLogo from '../WLogo';
 import {
   DASHBOARD_STATS,
   EARNINGS_CHART_MONTHLY,
@@ -168,7 +168,7 @@ const OverviewTab = ({
             }}
           >
             <div style={{ display: 'flex', alignItems: 'center', gap: 10 }}>
-              <WLogo size={24} />
+              <Bot size={24} color="#7C3AED" />
               <h3
                 style={{
                   fontSize: '1.15rem',

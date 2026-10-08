@@ -1,8 +1,8 @@
 import React, { useState } from 'react';
 import { useTranslation } from 'react-i18next';
 import api from '../api/client';
-import WLogo from './WLogo';
 import {
+  Compass,
   Wand2,
   Clock,
   Utensils,
@@ -210,8 +210,8 @@ const AISmartItinerary = ({ listing }) => {
     <div className="ai-card" id="ai-smart-itinerary-card">
       <div className="ai-card-header">
         <div style={{ display: 'flex', alignItems: 'center', gap: 10 }}>
-          <div className="ai-badge-icon" style={{ display: 'flex', alignItems: 'center', justifyContent: 'center' }}>
-            <WLogo size={20} />
+          <div className="ai-badge-icon">
+            <Compass size={22} color="#FFFFFF" />
           </div>
           <div>
             <div style={{ display: 'flex', alignItems: 'center', gap: 8, flexWrap: 'wrap' }}>

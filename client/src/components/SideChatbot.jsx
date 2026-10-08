@@ -1,7 +1,6 @@
 import React, { useState, useEffect, useRef } from 'react';
 import { useTranslation } from 'react-i18next';
 import api from '../api/client';
-import WLogo from './WLogo';
 import {
   X,
   Send,
@@ -208,8 +207,8 @@ const SideChatbot = () => {
           aria-label="Open AI Concierge Chatbot"
           id="open-side-chatbot-btn"
         >
-          <div className="chatbot-trigger-icon" style={{ display: 'flex', alignItems: 'center', justifyContent: 'center' }}>
-            <WLogo size={22} />
+          <div className="chatbot-trigger-icon">
+            <Bot size={22} color="#FFFFFF" />
           </div>
           <span className="chatbot-trigger-text">AI Concierge</span>
           <span className="chatbot-online-pulse"></span>

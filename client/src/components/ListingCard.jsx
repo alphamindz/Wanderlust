@@ -1,8 +1,7 @@
 import React, { useState } from 'react';
 import { Link } from 'react-router-dom';
 import { useTranslation } from 'react-i18next';
-import { Star, Heart } from 'lucide-react';
-import WLogo from './WLogo';
+import { Star, Heart, Bot } from 'lucide-react';
 import { formatPrice, formatRating } from '../utils/formatters';
 
 const ListingCard = ({ listing }) => {
@@ -88,7 +87,7 @@ const ListingCard = ({ listing }) => {
               boxShadow: '0 2px 6px rgba(124, 58, 237, 0.3)',
             }}
           >
-            <WLogo size={13} /> {t('home.aiInsights')}
+            <Bot size={13} /> {t('home.aiInsights')}
           </span>
         </div>
 

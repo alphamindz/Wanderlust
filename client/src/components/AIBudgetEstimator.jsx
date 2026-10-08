@@ -1,8 +1,8 @@
 import React, { useState, useEffect } from 'react';
 import { useTranslation } from 'react-i18next';
 import api from '../api/client';
-import WLogo from './WLogo';
 import {
+  Calculator,
   DollarSign,
   Utensils,
   Car,
@@ -142,8 +142,8 @@ const AIBudgetEstimator = ({ listing }) => {
     <div className="ai-card" id="ai-budget-estimator-card">
       <div className="ai-card-header">
         <div style={{ display: 'flex', alignItems: 'center', gap: 10 }}>
-          <div className="ai-badge-icon" style={{ display: 'flex', alignItems: 'center', justifyContent: 'center' }}>
-            <WLogo size={20} />
+          <div className="ai-badge-icon">
+            <Calculator size={22} color="#FFFFFF" />
           </div>
           <div>
             <div style={{ display: 'flex', alignItems: 'center', gap: 8, flexWrap: 'wrap' }}>

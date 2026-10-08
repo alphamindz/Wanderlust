@@ -9,8 +9,8 @@ import BookingWidget from '../components/BookingWidget';
 import ListingCard from '../components/ListingCard';
 import AIBudgetEstimator from '../components/AIBudgetEstimator';
 import AISmartItinerary from '../components/AISmartItinerary';
-import WLogo from '../components/WLogo';
 import {
+  Bot,
   Star,
   MapPin,
   Share2,
@@ -790,7 +790,7 @@ const ListingDetailPage = () => {
                 }}
               >
                 <div style={{ display: 'flex', alignItems: 'center', gap: 10, marginBottom: 8 }}>
-                  <WLogo size={20} />
+                  <Bot size={22} color="#7C3AED" />
                   <h4 style={{ fontSize: '1.15rem', margin: 0, color: '#581C87' }}>
                     {t('detail.planTripWithAi')}
                   </h4>
