@@ -8,7 +8,7 @@ import {
   Compass,
   Heart,
   Settings,
-  Sparkles,
+  Bot,
   ChevronRight,
 } from 'lucide-react';
 
@@ -241,7 +241,7 @@ const DashboardPage = () => {
           {/* Host AI Tip in Sidebar (Desktop) */}
           <div className="dashboard-ai-sidebar-widget desktop-only">
             <div style={{ display: 'flex', alignItems: 'center', gap: 8, marginBottom: 6 }}>
-              <Sparkles size={16} color="#7C3AED" />
+              <Bot size={16} color="#7C3AED" />
               <span style={{ fontSize: '0.82rem', fontWeight: 800, color: '#581C87' }}>
                 Wanderlust Host AI
               </span>

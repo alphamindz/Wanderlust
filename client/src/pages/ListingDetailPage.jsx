@@ -24,7 +24,6 @@ import {
   ShieldCheck,
   CheckCircle,
   Loader2,
-  Sparkles,
   Calculator,
   Compass,
   Calendar,
@@ -644,7 +643,7 @@ const ListingDetailPage = () => {
             padding: '12px 24px',
           }}
         >
-          <Sparkles size={16} color={activeTab === 'budget' ? '#7C3AED' : 'currentColor'} />
+          <Calculator size={16} color={activeTab === 'budget' ? '#7C3AED' : 'currentColor'} />
           <span>{t('detail.budgetTab')}</span>
         </button>
         <button

@@ -10,11 +10,11 @@ import {
   Tent,
   Snowflake,
   Sailboat,
-  Sparkles,
+  LayoutGrid,
 } from 'lucide-react';
 
 const CATEGORIES = [
-  { label: 'All', icon: Sparkles },
+  { label: 'All', icon: LayoutGrid },
   { label: 'Trending', icon: Flame },
   { label: 'Beachfront', icon: Waves },
   { label: 'Iconic Cities', icon: Building2 },

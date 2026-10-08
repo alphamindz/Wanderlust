@@ -3,7 +3,7 @@ import { useTranslation } from 'react-i18next';
 import api from '../api/client';
 import WLogo from './WLogo';
 import {
-  Sparkles,
+  Wand2,
   Clock,
   Utensils,
   Lightbulb,
@@ -325,7 +325,7 @@ const AISmartItinerary = ({ listing }) => {
               </>
             ) : (
               <>
-                <Sparkles size={16} />
+                <Wand2 size={16} />
                 <span>{ui.btnGenerate}</span>
               </>
             )}

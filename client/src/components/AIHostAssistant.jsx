@@ -1,7 +1,7 @@
 import React, { useState } from 'react';
 import { useTranslation } from 'react-i18next';
 import api from '../api/client';
-import { Sparkles, Wand2, Check, Loader2, Globe } from 'lucide-react';
+import { Wand2, Check, Loader2, Globe } from 'lucide-react';
 import { WORLD_LANGUAGES } from './LanguageSelector';
 
 const VIBE_OPTIONS = [
@@ -76,7 +76,7 @@ const AIHostAssistant = ({
       >
         <div style={{ display: 'flex', alignItems: 'center', gap: 10 }}>
           <div className="ai-badge-icon" style={{ width: 34, height: 34 }}>
-            <Sparkles size={18} color="#FFFFFF" />
+            <Wand2 size={18} color="#FFFFFF" />
           </div>
           <div>
             <div style={{ display: 'flex', alignItems: 'center', gap: 8 }}>
@@ -101,7 +101,7 @@ const AIHostAssistant = ({
             background: isOpen ? '#F3F4F6' : '#FFFFFF',
           }}
         >
-          {isOpen ? 'Close Assistant' : '✨ Open AI Writer'}
+          {isOpen ? 'Close Assistant' : 'Open AI Writer'}
         </button>
       </div>
 

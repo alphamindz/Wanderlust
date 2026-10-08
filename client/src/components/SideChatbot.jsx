@@ -5,7 +5,6 @@ import WLogo from './WLogo';
 import {
   X,
   Send,
-  Sparkles,
   Bot,
   RotateCcw,
 } from 'lucide-react';
@@ -315,7 +314,7 @@ const SideChatbot = () => {
                   gap: 4,
                 }}
               >
-                <Sparkles size={12} color="#7C3AED" />
+                <Bot size={13} color="#7C3AED" />
                 <span>
                   {currentLang === 'hi'
                     ? 'त्वरित सुझाव'

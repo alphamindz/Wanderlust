@@ -2,7 +2,7 @@ import React, { useState, useEffect } from 'react';
 import { Link, useNavigate } from 'react-router-dom';
 import api from '../api/client';
 import { useAuth } from '../context/AuthContext';
-import { Calendar, MapPin, XCircle, Loader2, Sparkles } from 'lucide-react';
+import { Calendar, MapPin, XCircle, Loader2, Compass } from 'lucide-react';
 
 const MyBookingsPage = () => {
   const { isAuthenticated, showToast } = useAuth();
@@ -70,7 +70,7 @@ const MyBookingsPage = () => {
             margin: '0 auto',
           }}
         >
-          <Sparkles size={40} color="#FF385C" style={{ margin: '0 auto 16px' }} />
+          <Compass size={40} color="#FF385C" style={{ margin: '0 auto 16px' }} />
           <h3 style={{ marginBottom: 8 }}>No trips booked... yet!</h3>
           <p style={{ color: 'var(--text-muted)', marginBottom: 24 }}>
             Time to dust off your bags and start planning your next getaway.

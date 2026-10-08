@@ -210,7 +210,7 @@ const AIBudgetEstimator = ({ listing }) => {
                 onClick={() => setTravelStyle(style)}
               >
                 {style === 'Budget' && '🎒 Budget'}
-                {style === 'Moderate' && '✨ Moderate'}
+                {style === 'Moderate' && '⚖️ Moderate'}
                 {style === 'Luxury' && '👑 Luxury'}
               </button>
             ))}

@@ -4,7 +4,7 @@ import { useTranslation } from 'react-i18next';
 import api from '../api/client';
 import CategoriesBar from '../components/CategoriesBar';
 import ListingCard from '../components/ListingCard';
-import { Map, List, Loader2, Sparkles } from 'lucide-react';
+import { Map, List, Loader2, Compass } from 'lucide-react';
 import L from 'leaflet';
 
 const HomePage = () => {
@@ -200,7 +200,7 @@ const HomePage = () => {
               margin: '0 auto',
             }}
           >
-            <Sparkles size={48} color="#FF385C" style={{ margin: '0 auto 16px' }} />
+            <Compass size={48} color="#FF385C" style={{ margin: '0 auto 16px' }} />
             <h3 style={{ fontSize: '1.5rem', marginBottom: 8 }}>{t('home.noListingsFound')}</h3>
             <p style={{ color: 'var(--text-muted)', marginBottom: 24 }}>
               {t('home.noListingsSubtitle')}
